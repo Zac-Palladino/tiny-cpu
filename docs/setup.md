@@ -6,3 +6,7 @@
 4. Git identity: `git config --global user.name/user.email`, `init.defaultBranch main`
 5. SSH key: `ssh-keygen -t ed25519 -C "<machine>"`, add to GitHub, test with `ssh -T git@github.com`
 6. VS Code + WSL extension, open projects with `code .`
+
+
+## Hardware build (laptop only)
+    Apio builds SystemVerilog for the Pico: it runs `yosys read_verilog -sv`, and `.sv` files are picked up. Tested with `logic` and `always_ff`.
