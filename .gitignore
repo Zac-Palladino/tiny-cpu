@@ -1,0 +1,12 @@
+# Verilator
+obj_dir/
+*.vcd
+*.fst
+
+# apio / yosys builds
+_build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
